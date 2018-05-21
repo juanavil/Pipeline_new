@@ -4,8 +4,11 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                sh "./pipeline_hellow.sh"
+		echo 'Building..'
                 echo 'A simple Test'
+
+	
             }
         }
     }
